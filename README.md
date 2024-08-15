@@ -18,4 +18,10 @@ An attempt to recreate the engine client from Activision's 1996 FMV Game:
 - [ ] Implement Map System
 - [ ] Implement PDA
 - [ ] Implement Inventory
-- [ ] 
+- [ ] Implement Shooter Section Logic
+- [ ] Implement General Puzzle Logic
+- [ ] Implement RTS BADMAN Logic
+
+
+### Not Planned/Maybe Once Core Functionality
+- [ ] Reimplement ACTSOCK Weblink Functionality
