@@ -1,0 +1,35 @@
+﻿<Window x:Class="Spycraft.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spycraft"
+        xmlns:vlc="clr-namespace:LibVLCSharp.WPF;assembly=LibVLCSharp.WPF"
+        mc:Ignorable="d"
+        Title="Spycraft" Height="480" Width="640">
+    <Grid>
+        <Image x:Name="imageControl" />
+        <vlc:VideoView x:Name="VlcView" Margin="64,0,64,92"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="40
+                    
+                    ">
+            <TextBox x:Name="filebox" Margin="10" TextChanged="FileBox_TextChanged">
+                filename
+               
+            </TextBox>
+            <TextBox x:Name="startbox" Margin="10" TextChanged="StartBox_TextChanged">
+                startframe
+
+            </TextBox>
+            <TextBox x:Name="endbox" Margin="10" TextChanged="endbox_TextChanged">
+                endframe
+
+            </TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+
+            <Button Content="Play" Click="PlayButton_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
