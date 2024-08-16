@@ -7,7 +7,7 @@ An attempt to recreate the engine client from Activision's 1996 FMV Game:
 
 **This is a WORK IN PROGRESS, and is not finished in any way, shape, or form.**
 
-Current progress available at https://www.github.com/sentrywasbored/SpycraftWPF
+Current progress available at <a href="https://www.github.com/sentrywasbored/SpycraftWPF"> SpycraftWPF </a>
 
 ### TODO
 
